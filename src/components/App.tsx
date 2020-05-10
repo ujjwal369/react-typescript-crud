@@ -1,17 +1,8 @@
 import React, { useState } from 'react';
 import { AddPlayerForm } from './AddPlayerForm';
 import { Players } from './Players';
-import { Player } from './PlayerItem';
+import { Player } from '../types/types';
 import { v4 as uuid } from 'uuid';
-
-export type FormProps = {
-  addPlayer: (newPlayer: Player) => void;
-};
-
-export type PlayerProps = {
-  deletePlayer: (playerId) => void;
-  updatePlayer: (playerId, newData) => void;
-};
 
 const App = () => {
   const initialData = [

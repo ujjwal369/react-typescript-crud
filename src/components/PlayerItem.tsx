@@ -1,13 +1,6 @@
 import React, { useState } from 'react';
 import { EditPlayerForm } from './EditPlayerForm';
 
-export type Player = {
-  id: string;
-  name: string;
-  age: number;
-  position: string;
-};
-
 export const PlayerItem = ({
   id,
   name,

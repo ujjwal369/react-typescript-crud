@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { FormProps } from './App';
-import { Player } from './PlayerItem';
+import { FormProps } from '../types/types';
+import { Player } from '../types/types';
 
-export const AddPlayerForm = ({ addPlayer }: FormProps) => {
+export const AddPlayerForm: React.FC<FormProps> = ({ addPlayer }) => {
   const initialValue: Player = {
     id: '',
     name: '',
