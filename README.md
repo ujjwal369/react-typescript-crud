@@ -1,3 +1,13 @@
+# CRUD app using React and Typescript
+
+First time using react and typescript
+
+## Todo
+
+- Add styling
+- Form validation
+- Connect to backend API
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
